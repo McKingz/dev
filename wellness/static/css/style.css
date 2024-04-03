@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+:root {
+    --primary-color: #474343;
+    --secondary-color: #f5f5f5;
+    --tertiary-color: #f5f5f5;
+    --quaternary-color: #f5f5f5;
+    --quinary-color: #86ece7;
+    --senary-color: #f5f5f5;
+    --septenary-color: #f5f5f5;
+    --octonary-color: #f5f5f5;
+    --nonary-color: #f5f5f5;
+    --denary-color: #f5f5f5;
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Open Sans', sans-serif;
+    --tertiary-font: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--tertiary-font);
+    font-weight: 700;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--tertiary-color);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: var(--quaternary-color);
+    padding: 1rem 0;
+}   
+
+header h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: turquoise;
+}
+
+nav ul li a:hover {
+    color: burlywood;
+}
+
+main {
+    padding: 1rem;
+}
+
+footer {
+    background-color: var(--octonary-color);
+    color: var(--nonary-color);
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Path: wellness/static/css/style.css */
